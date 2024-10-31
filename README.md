@@ -105,15 +105,18 @@ Mimikatz Oneliner
     [ASREPRoast HackTricks Guide](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/asreproast#request-as_rep-message)
 
 17. Perform a UDP scan.
-18. Repeat your steps—**Enumeration is key; try harder.**
-19. Run WinPEAS with user or local admin privileges again.
-20. Connect to SMB with:
+    ```bash
+    nmap -sUV -vv --reason  --version-intensity 0 --min-rate 1300 --max-retries 1 -top-ports 1000 192.168.236.161-163  -Pn
+    ```
+19. Repeat your steps—**Enumeration is key; try harder.**
+20. Run WinPEAS with user or local admin privileges again.
+21. Connect to SMB with:
 
     ```bash
     impacket-smbclient domain.com/guest@192.168.123.100
     ```
 
-21. Step back and review your enumeration to ensure nothing was missed.
+22. Step back and review your enumeration to ensure nothing was missed.
 
 ### General Checklist for Web Applications
 
