@@ -7,7 +7,7 @@ A collection of organized checklists and cheat sheets for penetration testing, p
 ## Table of Contents
 
 - [Command Cheat Sheets](#command-cheat-sheets)
-- [General Checklists](#general-checklists)
+  - [General Checklists](#general-checklists)
 - [Web-Application Pre-Authentication Checklist](#web-application-pre-authentication-checklist)
 - [Web-Application Directory Enumeration Checklist](#web-application-directory-enumeration-checklist)
 - [Web-Application Login Checklist](#web-application-login-checklist)
