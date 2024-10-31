@@ -509,8 +509,7 @@ Mimikatz Oneliner
     ```bash
     /Tools/kerbrute_linux_amd64 userenum -d domain.com --dc 192.168.123.100 $SECLIST/Usernames/Names/names.txt
     ```
-
-3. Continue enumeration until you have the naming schema.
+    
 4. Use wordlists like [statistically-likely-usernames](https://github.com/insidetrust/statistically-likely-usernames/tree/master/facebook-base-lists).
 5. Merge wordlists to create a comprehensive `names.txt`:
 
@@ -526,7 +525,7 @@ Mimikatz Oneliner
 
     [ASREPRoast HackTricks Guide](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/asreproast#request-as_rep-message)
 
-7. Enumerate service accounts with specialized wordlists.
+7.Continue using Kerbrute until you have the naming schema, lots of users, and service accounts. Refer to [service-accounts.txt](https://github.com/crtvrffnrt/wordlists/blob/main/service-accounts.txt).
 8. Try using the username as the password.
 9. Identify the Domain Controller.
 10. Run Responder.
