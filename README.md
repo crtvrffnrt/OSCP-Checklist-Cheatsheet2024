@@ -2,7 +2,9 @@
 
 This repository contains various checklists and cheatsheets to aid in penetration testing and preparing for the Offensive Security PEN-200 OSCP+ exam.
 
-
+Further Source:
+[HACKTRICKS](https://book.hacktricks.xyz/)
+[THE HACKER RECIPES](https://www.thehacker.recipes/)
 
 ## Table of Contents
 
@@ -35,7 +37,7 @@ This repository contains various checklists and cheatsheets to aid in penetratio
 
 ## Commands Cheat Sheet
 
-### Full TTY
+### Full TTY (BETTER USE [PENELOPE](https://github.com/brightio/penelope))
 
 ```bash
 python3 -c 'import pty; pty.spawn("/bin/bash")'
