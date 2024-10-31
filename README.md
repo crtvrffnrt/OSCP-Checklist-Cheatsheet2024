@@ -1,6 +1,8 @@
 # Penetration Testing Checklists and Cheatsheets
 
-This repository contains various checklists and cheatsheets to aid in penetration testing and preparing for the Offensive Security OSCP exam.
+This repository contains various checklists and cheatsheets to aid in penetration testing and preparing for the Offensive Security PEN-200 OSCP+ exam.
+
+
 
 ## Table of Contents
 
