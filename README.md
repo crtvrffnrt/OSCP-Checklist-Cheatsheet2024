@@ -39,7 +39,7 @@ stty columns 200 rows 200
 
 ### Windows PowerShell Commands
 EXECUTION POLICY
-```
+```powershell
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser
 powershell -ExecutionPolicy Bypass -File .\PowerView.ps1
 ```
