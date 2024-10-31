@@ -3,7 +3,8 @@
 This repository contains various checklists and cheatsheets to aid in penetration testing and preparing for the Offensive Security PEN-200 OSCP+ exam.
 
 Further Source:
-[HACKTRICKS](https://book.hacktricks.xyz/)
+[HACKTRICKS](https://book.hacktricks.xyz/) 
+|
 [THE HACKER RECIPES](https://www.thehacker.recipes/)
 
 ## Table of Contents
